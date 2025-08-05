@@ -49,5 +49,8 @@ for (let i = 0; i < 6; i++) {
 }
 
 console.log(products.map((product) => product.getString()).join(', '));
+
 // > node factory-method.ts
+
+// Output:
 // Product A, Product B, Product A, Product B, Product A, Product B
